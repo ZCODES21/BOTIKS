@@ -110,7 +110,7 @@ function logTime() {
 logTime();
 setInterval(logTime, 60 * 60 * 1000);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`${colors.red} Bot Owner: ${config.owner}`);
 });
