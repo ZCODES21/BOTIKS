@@ -7,7 +7,7 @@ module.exports = {
   usage: 'bible\nExample: bible',
   author: 'chilli',
   async execute(senderId, args, pageAccessToken) {
-    const apiUrl = 'https://joshweb.click/bible';
+    const apiUrl = 'https://api.joshweb.click/bible';
 
     try {
       const response = await axios.get(apiUrl);
